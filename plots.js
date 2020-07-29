@@ -149,7 +149,9 @@ function init() {
           .text(sample)
           .property("value", sample);
       });
-
+    
+    buildMetadata(940);
+    buildCharts(940);
 })}
   
 init();
